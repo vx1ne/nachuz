@@ -5,7 +5,7 @@ require 'time'
 
 module Bot
 
-  BOT = Discordrb::Commands::CommandBot.new(token: 'MzcyNzczMzQ1OTE5MjM4MTU1.DNJDxA.PB2eOi4juqLibBEKdCyH7ndxgP0', client_id: 372773345919238155, prefix: '^')
+  BOT = Discordrb::Commands::CommandBot.new(token: 'token', client_id: id, prefix: '^')
 
   def self.load_modules(klass, path)
     new_module = Module.new
